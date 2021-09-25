@@ -1,17 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 .main {
-    position:absolute;
+    /* position:absolute;
     top:0;
     left:0;
     bottom:0;
     right:0;
     height: 100%;
-    width: 100%;
+    width: 100%; */
     background-color: black;
 }
 .title {
-    color: white;
-}
+    color: rgb(155, 60, 60);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+ }
 
+.searchBox {
+    align-self: center;
+    background-color: black;
+}
+.radio_buttons {
+    position: absolute;
+    left: 350px;
+    bottom: 280px;
+    
+}
 
 
 
