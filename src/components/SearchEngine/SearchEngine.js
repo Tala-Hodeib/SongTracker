@@ -18,10 +18,10 @@ const SearchEngine = ({}) => {
                 <img src={searchBox} alt="search rectangle block" className="searchBox"/>
                 <FormControl className="radio_buttons" component="fieldset">
                     <RadioGroup row aria-label="options" name="row-radio-buttons-group"  >
-                        <FormControlLabel className ="radio1" value="boarding" control={<Radio color="primary"/>} label="Boarding"/>
-                        <FormControlLabel value="grooming" control={<Radio color="primary"/>} label="Grooming" />
-                        <FormControlLabel value="day care" control={<Radio color="primary"/>} label="Day Care" />
-                        <FormControlLabel value="vet" control={<Radio color="primary"/>} label="Vet"/>
+                        <FormControlLabel  sx={{color: "#08138C"}} value="boarding" control={<Radio  sx={{color: "#08138C"}}/>} label="Boarding"/>
+                        <FormControlLabel sx={{color: "#08138C"}} value="grooming" control={<Radio  sx={{color: "#08138C"}}/>} label="Grooming" />
+                        <FormControlLabel  sx={{color: "#08138C"}} value="day care" control={<Radio  sx={{color: "#08138C"}}/>} label="Day Care" />
+                        <FormControlLabel  sx={{color: "#08138C"}} value="vet" control={<Radio  sx={{color: "#08138C"}}/>} label="Vet"/>
                     </RadioGroup>
                 </FormControl>
             </div>

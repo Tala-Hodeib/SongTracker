@@ -26,6 +26,7 @@ const PriceRangeFilter = () => {
      </Typography>
      </div>
       <Slider
+        sx={{color: "#08138C"}}
         min={0}
         max={500}
         value={value}

@@ -27,7 +27,7 @@ const DatePickerFilter = ({}) => {
           InputProps={{
             endAdornment: (
           <InputAdornment position="end">
-          <TodayIcon color="primary"/>
+          <TodayIcon sx={{color:"#08138C"}}/>
           </InputAdornment>
         )}}
           />
@@ -37,7 +37,7 @@ const DatePickerFilter = ({}) => {
            InputProps={{
             endAdornment: (
           <InputAdornment position="end">
-          <TodayIcon color="primary"/>
+          <TodayIcon sx={{color:"#08138C"}}/>
           </InputAdornment>
         )}}/>
         </React.Fragment>
