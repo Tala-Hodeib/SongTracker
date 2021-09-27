@@ -6,6 +6,9 @@ import CityFilter from "./CityFilter";
 import PetNumberFilter from "./PetNumberFilter";
 import PetSizeFilter from "./PetSizeFilter";
 import PetTypeFilter from "./PetTypeFilter";
+import DatePickerFilter from "./DatePickerFilter";
+import PriceRangeFilter from "./PriceRangeFilter";
+import MoreFiltersFilter from "./MoreFiltersFilter";
 
 const SearchEngine = ({}) => {
     return (
@@ -27,7 +30,9 @@ const SearchEngine = ({}) => {
             <PetNumberFilter/>
             <PetSizeFilter/>
             <PetTypeFilter/>
-
+            <DatePickerFilter/>
+            <PriceRangeFilter/>
+            <MoreFiltersFilter/>
         </div>
         
      
