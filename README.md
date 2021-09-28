@@ -21,15 +21,15 @@
 The <b>Result</b> of the search would include a <i>card</i> and a <i>map</i> to display the filtered result.
 <h5> Unfortunately, I ran out of time before being able to finish it all :disappointed: <h5>
 <h4> What's missing?
-<b>The functionality of buttons which allow the filter to work. Search, switch, Apply and Clear all are not functional at the moment and the website is not responsive but would definitely love to work on them and finish the features.<b>
+<b>The functionality of buttons which allow the filter to work. Search, switch, Apply and Clear all are not functional at the moment and the website is not responsive but would definitely love to work on them and finish the features.</b>
 </h4>
 <h3> <b> Library used :</b>
 <ul>
 <li>Material UI</li>
 </ul>
-</h4> <b> WHY? </b> .\
-Because when I saw the design I thought that almost all of the components look a lot like the Material UI ones. As well as I knew how flexible the components can be and how much it saves time to use it .\
-I had 2 days just looking for a price range that looks as awesome as the one from the UI design, I have alll of Google first 3 pages of links marked purple :sweat_smile: </h4>
+</h4> <b> WHY?  </b> <br>
+Because when I saw the design I thought that almost all of the components look a lot like the Material UI ones. As well as I knew how flexible the components can be and how much it saves time to use it <br>
+I had 2 days just looking for a price range that looks as awesome as the one from the UI design, I have allll of Google first 3 pages of links marked purple :sweat_smile: </h4>
 
 <h3> Things I learned </h3>
 <h4>
