@@ -9,7 +9,7 @@ const PetSizeFilter = ({}) => {
         };
     return (
         
-          <Box sx={{ minWidth: 120 }}>
+          <Box>
             <FormControl variant="outlined">
               <InputLabel >Pet Size</InputLabel>
               <Select

@@ -17,8 +17,8 @@ import { Box } from "@mui/system";
 const SearchEngine = ({}) => {
     return (
         <div style={{display: "flex", justifyContent: "center"}}>
-                <Card style={{display:"flex", flexDirection: "row", flexWrap: "wrap",}} sx={{width: 1235, height: 305, borderRadius:"40px", backgroundColor: "#f4fafe"}}>
-                    <CardContent style={{display:"flex", flexDirection: "row", flexWrap: "wrap", justifyContent:"space-between"}} >
+                <Card style={{display:"flex", flexDirection: "row", flexWrap: "wrap", marginTop: 15}} sx={{width: 1235, height: 305, borderRadius:"40px", backgroundColor: "#f4fafe"}}>
+                    <CardContent style={{display:"flex", flexDirection: "row", flexWrap: "wrap", justifyContent:"space-between", gap: "10px"}} >
                         <RadioGroup sx={{width: "100%", justifyContent: "center"}} row aria-label="options" name="row-radio-buttons-group" >
                          <FormControlLabel   sx={{color: "#08138C"}} value="boarding" control={<Radio  sx={{color: "#08138C"}}/>} label="Boarding"/>
                          <FormControlLabel sx={{color: "#08138C"}} value="grooming" control={<Radio  sx={{color: "#08138C"}}/>} label="Grooming" />
@@ -28,7 +28,6 @@ const SearchEngine = ({}) => {
                 
 
                     <CityFilter />
-                    <Box sx={{ mx: 0.5 }}>  </Box>
                     <PetNumberFilter/>
                     <PetTypeFilter/>
                     <PetSizeFilter/>
