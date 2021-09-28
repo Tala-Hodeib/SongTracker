@@ -19,8 +19,9 @@
 <li>A menu prompted by a button</li>
 </ul>
 The <b>Result</b> of the search would include a <i>card</i> and a <i>map</i> to display the filtered result.
+</h4>
 <h5> Unfortunately, I ran out of time before being able to finish it all :disappointed: <h5>
-<h4> What's missing?
+<h4> What's missing? <br>
 <b>The functionality of buttons which allow the filter to work. Search, switch, Apply and Clear all are not functional at the moment and the website is not responsive but would definitely love to work on them and finish the features.</b>
 </h4>
 <h3> <b> Library used :</b>
