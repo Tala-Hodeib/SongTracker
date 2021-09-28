@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, FormControl, InputLabel, Select, MenuItem } from "@material-ui/core";
 
-const PetSizeFilter = ({}) => {
+const PetSizeFilter = () => {
     const [size, setSize] = React.useState('');
 
         const handleChange = (event) => {

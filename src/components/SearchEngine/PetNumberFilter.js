@@ -1,7 +1,7 @@
 import React from "react";
 import { TextField } from "@material-ui/core";
 
-const PetNumberFilter = ({}) => {
+const PetNumberFilter = () => {
     return (
         <div>
         <TextField  style={{height: 55, width: 265,

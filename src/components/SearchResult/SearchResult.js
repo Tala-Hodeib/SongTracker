@@ -1,10 +1,9 @@
-import { red } from "@mui/material/colors";
 import React from "react";
 import CardMap from "./CardMap";
 import ResultCard from "./ResultCard";
 
 
-const SearchResult = ({}) => {
+const SearchResult = () => {
     return ( 
 
         <div style={{display:"flex", flexDirection: "column"}}>

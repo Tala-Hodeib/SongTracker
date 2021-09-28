@@ -6,7 +6,7 @@ import SwitchUnstyled, { switchUnstyledClasses } from '@mui/core/SwitchUnstyled'
 import { styled } from '@mui/system';
 import { FormControlLabel } from "@mui/material";
 
-
+//Props for Mui unstyled switch key:
 const Root = styled('span')(`
   font-size: 0;
   position: relative;
@@ -71,6 +71,7 @@ const Root = styled('span')(`
     z-index: 1;
     margin: 0;
   }`);
+  //Props end
 
 const ResultCard = () => {
     const label = { componentsProps: { input: { 'aria-label': 'Demo switch' } } };
@@ -78,28 +79,36 @@ const ResultCard = () => {
     return(
         <div>
            
-         <div style={{marginLeft: 65,marginTop: -160,
+         <div 
+            style={{marginLeft: 65,marginTop: -160,
                 display: "flex",justifyContent: "flex-start",
                  width: 730, height: 180, borderRadius:"20px",
                  backgroundColor: "white", boxShadow: "0px 0px 4px rgba(0, 0, 0, 0.25)"}} >
-                <img src={Photo} />
-                <img src={Info}
-                 style={{height: "170px", paddingTop: 16, paddingLeft: 15}}/>
-             </div>
-            <div style={{ marginTop: -50, paddingLeft:50 }}>
+         <img src={Photo} alt="Hotel of pets"/>
+         <img src={Info} alt="Information"
+            style={{height: "170px", paddingTop: 16, paddingLeft: 15}}/>
+        </div>
+        <div style={{ marginTop: -50, paddingLeft:50 }}>
             <Button style={{height: 35, width: 135, borderRadius: 25}} 
                 sx={{ '&:hover': {backgroundColor: "#08138C",}, 
                 textTransform: "none",color: "white",backgroundColor:"#08138C"}} 
                  variant="contained">
             See availability
             </Button>
-            </div>
+        </div>
+
             <div style={{display:"flex",marginLeft: 85,marginTop: -230}}>
-            <Typography style={{color: "#08138C", fontWeight: 500, fontSize: 24}}> 1 Search Results </Typography>
+                <Typography style={{color: "#08138C", fontWeight: 500, fontSize: 24}}>
+                 1 Search Results 
+                 </Typography>
             </div>
+
             <div style={{display:"flex",marginLeft: 550,marginTop: -28,}}>
-            <Typography style={{color: "#08138C", fontSize: 16, fontWeight: 350}}> Sort By:Top Reviewed ˅ </Typography>
+                <Typography style={{color: "#08138C", fontSize: 16, fontWeight: 350}}>
+                 Sort By:Top Reviewed ˅ 
+                 </Typography>
             </div>
+
             <div style={{marginLeft: 1080, marginTop: -10}}>
                 <FormControlLabel
                     style={{color:"#08138C",fontWeight:"normal"}}

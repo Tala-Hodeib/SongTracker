@@ -6,7 +6,7 @@ import AdapterDateFns from '@material-ui/lab/AdapterDateFns';
 import LocalizationProvider from '@material-ui/lab/LocalizationProvider';
 
 
-const DatePickerFilter = ({}) => {
+const DatePickerFilter = () => {
 
   const [value, setValue] = React.useState([null, null]);
 

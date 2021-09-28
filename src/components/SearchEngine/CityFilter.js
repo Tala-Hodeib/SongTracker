@@ -1,11 +1,11 @@
 import * as React from 'react';
-import { Box, InputAdornment, OutlinedInput, FormControl,InputLabel, Input } from "@material-ui/core";
+import { Box, InputAdornment,FormControl } from "@material-ui/core";
 import {LocationOn} from "@material-ui/icons";
 import { TextField } from '@mui/material';
 
 
 
- const CityFilter = ({}) => {
+ const CityFilter = () => {
 
   return (
    <Box>
