@@ -13,19 +13,19 @@ const PriceRangeFilter = () => {
   };
   
   return (
-    <div style={{
-      display: 'block',
-      width: 'fit-content'
-    }}>
-        <div style={{display: "flex"}}>
-      <Typography style={{paddingRight: 40}} gutterBottom>
+    <div>
+        <div style={{display: "flex", flexDirection: "row", marginLeft: -120}}>
+      <Typography  gutterBottom>
         Price Range:
      </Typography>
-     <Typography style={{paddingLeft: 40}}>
+     </div>
+     <div style={{marginRight: -80, marginTop: -20}}>
+     <Typography >
      {value[0]}$ - {value[1]}$     
      </Typography>
      </div>
       <Slider
+        style={{marginLeft: -120, width: 290}}
         sx={{color: "#08138C"}}
         min={0}
         max={500}

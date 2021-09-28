@@ -22,7 +22,8 @@ const DatePickerFilter = ({}) => {
       }}
       renderInput={(startProps, endProps) => (
         <React.Fragment >
-          <TextField     
+          <TextField  
+          style={{backgroundColor:"white"}}   
           {...startProps} 
           InputProps={{
             endAdornment: (
@@ -33,7 +34,9 @@ const DatePickerFilter = ({}) => {
           />
           
           <Box sx={{ mx: 3.5}}>  </Box>
-          <TextField {...endProps} 
+          <TextField 
+           style={{backgroundColor:"white"}}   
+          {...endProps} 
            InputProps={{
             endAdornment: (
           <InputAdornment position="end">

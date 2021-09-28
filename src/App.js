@@ -1,7 +1,7 @@
 import './App.css';
 import SearchEngine from './components/SearchEngine/SearchEngine';
 import GlobalStyles from "@mui/material/GlobalStyles";
-import  CardMap  from './components/Map/CardMap';
+import SearchResult from './components/SearchResult/SearchResult';
 
 
 
@@ -10,12 +10,12 @@ function App() {
     <div className="App">
        <GlobalStyles
         styles={{
-          body: { boxSizing: "border-box"},
-          "body *": { boxSizing: "border-box"}
+          body: { boxSizing: "border-box", fontFamily:"Raleway"},
+          "body *": { boxSizing: "border-box",fontFamily:"Raleway"}
         }}
       />
       <SearchEngine/>
-      <CardMap/>
+      <SearchResult/>
     </div>
   );
 }

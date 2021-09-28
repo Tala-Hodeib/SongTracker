@@ -24,7 +24,7 @@ import { TextField, Typography } from '@mui/material';
   return (
     <div>
       <Button
-        sx={{ borderRadius: 25 , borderColor: "#08138C", color: "#08138C", textTransform: "none"}}
+        sx={{ borderRadius: 25 , borderColor: "#08138C", color: "#08138C",backgroundColor:"white",textTransform: "none"}}
         variant="outlined"
         aria-controls="basic-menu"
         aria-haspopup="true"
@@ -34,6 +34,7 @@ import { TextField, Typography } from '@mui/material';
         More Filters
       </Button>
       <Menu
+        anchorPosition={ {left:50, top:50} }
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
@@ -55,7 +56,7 @@ import { TextField, Typography } from '@mui/material';
         }}
       >
 
-        <Typography style={{ color:"#08138C", fontSize: 24 , width: '100%' }}> Popular Filters</Typography>
+        <Typography style={{ fontWeight:"bold",color:"#08138C", fontSize: 24 , width: '100%' }}> Popular Filters</Typography>
         <FormControlLabel
         style={{width: '50%', display: "flex", alignItems: "flex-start"}}
           value="start"

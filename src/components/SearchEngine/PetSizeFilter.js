@@ -11,9 +11,9 @@ const PetSizeFilter = ({}) => {
         
           <Box>
             <FormControl variant="outlined">
-              <InputLabel >Pet Size</InputLabel>
+              <InputLabel>Pet Size</InputLabel>
               <Select
-              style={{ height: 55, width: 265}}
+              style={{ backgroundColor:"white", height: 55, width: 265}}
                 value={size}
                 label="Pet Size"
                 onChange={handleChange}

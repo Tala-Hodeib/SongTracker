@@ -39,11 +39,9 @@ function CardMap() {
         onLoad={onLoad}
         onUnmount={onUnmount}
       >
-        { /* Child components, such as markers, info windows, etc. */ }
         <></>
       </GoogleMap>
   ) : <></>
 }
 
 export default React.memo(CardMap)
-//   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3VGHNO2fCE8F5oxBs86xUFL9EAkArzSw&callback=initMap"></script>

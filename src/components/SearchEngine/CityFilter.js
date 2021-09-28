@@ -13,7 +13,7 @@ import { TextField } from '@mui/material';
          <FormControl variant="outlined">
           <TextField
           variant="outlined"
-            style={{height: 55, width: 265}}
+            style={{height: 55, width: 265, backgroundColor:"white"}}
             label="City"
             InputProps={{
               endAdornment: (

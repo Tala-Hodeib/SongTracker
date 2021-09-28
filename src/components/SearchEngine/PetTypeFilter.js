@@ -13,7 +13,7 @@ const PetTypeFilter = ({}) => {
             <FormControl variant="outlined">
               <InputLabel >Pet Type</InputLabel>
               <Select
-              style={{ height: 55, width: 265}}
+              style={{ backgroundColor:"white", height: 55, width: 265}}
                 value={type}
                 label="Pet Type"
                 onChange={handleChange}
