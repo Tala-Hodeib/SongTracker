@@ -7,9 +7,7 @@
 
 </div>
 
-<div align="center">
 <h3> Description: </h3>
-</div>
 <h4>This is a test assignment done for 24EastYard. It's main goal is to use <b>React.JS</b> to build a search filter including input components of several types including:
 <ul>
 <li>A price range filter (this one was so tricky)</li>
