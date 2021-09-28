@@ -13,7 +13,7 @@ const DatePickerFilter = ({}) => {
   return (
     <LocalizationProvider dateAdapter={AdapterDateFns}>
       <DateRangePicker
-     
+     style={{height: 55, width: 265}}
       startText="Date From"
       endText="Date To"
       value={value}
@@ -32,7 +32,7 @@ const DatePickerFilter = ({}) => {
         )}}
           />
           
-          <Box sx={{ mx: 2 }}>  </Box>
+          <Box sx={{ mx: 0.5 }}>  </Box>
           <TextField {...endProps} 
            InputProps={{
             endAdornment: (

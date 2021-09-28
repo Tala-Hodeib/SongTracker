@@ -10,7 +10,7 @@ import { TextField } from '@mui/material';
   return (
    <Box>
        <div>
-         <FormControl sx={{ m: 1, width: '25ch' }} variant="outlined">
+         <FormControl variant="outlined">
           <TextField
           variant="outlined"
             style={{height: 55, width: 265}}

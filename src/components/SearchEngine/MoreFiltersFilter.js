@@ -41,12 +41,13 @@ import { TextField, Typography } from '@mui/material';
           'aria-labelledby': 'basic-button',
           sx: {
                 display: "flex",
+                boxSizing: 'border-box',
                 flexDirection: "row",
                 flexWrap: "wrap",
-                justifyContent: "space-between",
-                alignContent: "space-around",
-                columnGap: 0.5,
-                rowGap: 0.5,
+                justifyContent: "space-evenly",
+                alignContent: "space-evenly",
+                columnGap: 0.25,
+                rowGap: 0.25,
                 width: 550,
                 height: 170,
                 borderRadius: 20,
@@ -54,56 +55,58 @@ import { TextField, Typography } from '@mui/material';
         }}
       >
 
-        <Typography style={{paddingLeft: 30}}> Popular Filters</Typography>
+        <Typography style={{ color:"#08138C", fontSize: 24 , width: '100%' }}> Popular Filters</Typography>
         <FormControlLabel
+        style={{width: '50%', display: "flex", alignItems: "flex-start"}}
           value="start"
           control={<Checkbox  sx={{color: "#08138C"}}/>}
           label={
             <React.Fragment>
-                <img src={FreeCancellation}  width="25px" height="25px" style={{ marginRight: "5px" }} />
+                <img src={FreeCancellation}  width="25px" height="25px" style={{ marginRight: "5px", alignSelf: "center" }} />
                 Free Cancellation
                 </React.Fragment>
         }
           labelPlacement="start"
         />
         <FormControlLabel
-            // style={{paddingBlock: 5, paddingRight: 55}}
+            style={{width: '50%', marginLeft: 0,  display: "flex", alignItems: "flex-start"}}
           value="start"
           control={<Checkbox  sx={{color: "#08138C"}}/>}
           label={
             <React.Fragment>
-                <img src={LateCheckout}  width="25px" height="25px" style={{ marginRight: "5px" }} />
-               Late Check Out
+                 <img src={Promotions}  width="25px" height="25px" style={{ marginRight: "5px" }} />
+                Promotions
                 </React.Fragment>   
                  }       
             labelPlacement="start"
         />
         <FormControlLabel
-            // style={{paddingLeft: 45}}
+            style={{width: '50%' , boxSizing: 'border-box', marginLeft: 0,  display: "flex", alignItems: "flex-start"}}
           value="start"
           control={<Checkbox  sx={{color: "#08138C"}}/>}
           label={
             <React.Fragment>
-                <img src={Promotions}  width="25px" height="25px" style={{ marginRight: "5px" }} />
-                Promotions
+                 <img src={LateCheckout}  width="25px" height="25px" style={{ marginRight: "5px" }} />
+               Late Check Out
                 </React.Fragment>   
                  } 
           labelPlacement="start"
         />
         <FormControlLabel
-            // style={{paddingBlock: 5, paddingRight: 55}}
+        style={{width: '50%', marginLeft: 0,  display: "flex", alignItems: "flex-start"}}
           value="start"
           control={<Checkbox  sx={{color: "#08138C"}}/>}
           label={
             <React.Fragment>
-                <img src={SwimmingPool}  width="25px" height="25px" style={{ marginRight: "5px" }} />
+                <img src={SwimmingPool}  width="25px" height="25px" style={{ marginRight: "5px", paddingTop: 4 }} />
                 Swimming Pool
                 </React.Fragment>   
                  } 
           labelPlacement="start"
         />
-      <Button style={{paddingLeft: 50}} sx={{textTransform: "none",color: "red"}} startIcon={<ClearIcon sx={{color:"red"}}/>} variant="text">Clear All</Button>
+      <Button style={{ width: '20%', marginLeft: 0, boxSizing: 'border-box'}} sx={{textTransform: "none",color: "red", }} startIcon={<ClearIcon sx={{color:"red"}}/>} variant="text">Clear All</Button>
       <Button
+      style={{width: '20%', marginLeft:0 , boxSizing: 'border-box'}}
         sx={{
             '&:hover': {
                 backgroundColor: "#08138C",
