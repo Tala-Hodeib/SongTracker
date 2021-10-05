@@ -1,26 +1,26 @@
 import React from "react";
 import { Box, FormControl, InputLabel, Select, MenuItem } from "@material-ui/core";
 
-const PetSizeFilter = () => {
-    const [size, setSize] = React.useState('');
+const SongCountry = () => {
+    const [type, setType] = React.useState('');
 
         const handleChange = (event) => {
-          setSize(event.target.value);
+          setType(event.target.value);
         };
     return (
         
-          <Box>
+          <Box sx={{ minWidth: 120 }}>
             <FormControl variant="outlined">
-              <InputLabel>Pet Size</InputLabel>
+              <InputLabel >Country of origin</InputLabel>
               <Select
               style={{ backgroundColor:"white", height: 55, width: 265}}
-                value={size}
-                label="Pet Size"
+                value={type}
+                label="Country of origin"
                 onChange={handleChange}
               >
-                <MenuItem value={1}>Small</MenuItem>
-                <MenuItem value={2}>Medium</MenuItem>
-                <MenuItem value={3}>Large</MenuItem>
+                <MenuItem value={1}>USA</MenuItem>
+                <MenuItem value={2}>Japan</MenuItem>
+                <MenuItem value={3}>UK</MenuItem>
               </Select>
             </FormControl>
           </Box>
@@ -30,4 +30,4 @@ const PetSizeFilter = () => {
     );
 }
 
-export default PetSizeFilter;
+export default SongCountry;

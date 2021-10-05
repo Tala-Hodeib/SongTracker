@@ -1,12 +1,12 @@
 import React from "react";
 import { TextField } from "@material-ui/core";
 
-const PetNumberFilter = () => {
+const SongYear = () => {
     return (
         <div>
         <TextField  style={{height: 55, width: 265,
-             backgroundColor:"white"}} type="number"  id="outlined-basic" 
-             label="Number of Pets" variant="outlined" 
+             backgroundColor:"white", borderRadius: 30}} type="number"  id="outlined-basic" 
+             label="Year released" variant="outlined" 
               />
         </div>
 
@@ -15,4 +15,4 @@ const PetNumberFilter = () => {
     );
 }
 
-export default PetNumberFilter;
+export default SongYear;

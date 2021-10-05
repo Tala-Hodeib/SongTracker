@@ -1,14 +1,14 @@
 import React from "react";
-import CardMap from "./CardMap";
 import ResultCard from "./ResultCard";
+import TrackPlayer from "./TrackPlayer";
 
 
 const SearchResult = () => {
     return ( 
 
         <div style={{display:"flex", flexDirection: "column"}}>
-            <CardMap/>
             <ResultCard/>
+            <TrackPlayer/>
         </div>
     );
 }

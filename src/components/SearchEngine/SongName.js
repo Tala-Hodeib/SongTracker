@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Box, InputAdornment,FormControl } from "@material-ui/core";
-import {LocationOn} from "@material-ui/icons";
+import {MusicNoteTwoTone} from "@material-ui/icons";
 import { TextField } from '@mui/material';
 
 
 
- const CityFilter = () => {
+ const SongName = () => {
 
   return (
    <Box>
@@ -13,12 +13,12 @@ import { TextField } from '@mui/material';
          <FormControl variant="outlined">
           <TextField
           variant="outlined"
-            style={{height: 55, width: 265, backgroundColor:"white"}}
-            label="City"
+            style={{height: 55, width: 265, backgroundColor:"white", borderRadius: 30}}
+            label="Song Name"
             InputProps={{
               endAdornment: (
                 <InputAdornment >
-                  <LocationOn sx={{color:"#08138C"}}/>
+                  <MusicNoteTwoTone/>
                 </InputAdornment>
               ),
             }}
@@ -29,4 +29,4 @@ import { TextField } from '@mui/material';
       </Box>
   );
 }
-export default CityFilter;
+export default SongName;
