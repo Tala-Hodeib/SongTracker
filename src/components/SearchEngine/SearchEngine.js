@@ -12,9 +12,11 @@ import SongYear from "./SongYear";
 
 const SearchEngine = () => {
     return (
-        <div style={{display: "flex"}}>
-            <img src= {Logo} alt="Website Logo" width="200" height="200" style={{}}/>
-                <Card style={{display:"flex", flexDirection: "row", flexWrap: "wrap", marginTop: 15}} sx={{width: 1000, height: 150, borderRadius:"40px", backgroundColor: "#3C096C"}}>
+        <div style={{display: "flex", flexWrap: "wrap"}}>
+            <div>
+            <img src= {Logo} alt="Website Logo" width="300" height="300" style={{display: "flex", justifyContent:"center", position: "absolute", left: "550px"}}/>
+            </div>
+                <Card style={{display:"flex", flexDirection: "row", flexWrap: "wrap", marginTop: 15, position: "absolute", left: "15px"}} sx={{width: 500, height: 600, borderRadius:"40px", backgroundColor: "#3C096C"}}>
                     <CardContent style={{display:"flex", flexDirection: "row", flexWrap: "wrap", justifyContent:"space-between", gap: "10px"}} >
                         <SongName />
                         <SongYear/>

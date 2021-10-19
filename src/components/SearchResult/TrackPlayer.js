@@ -9,10 +9,10 @@ const TrackPlayer = () => {
         <div>
            
          <div 
-            style={{marginLeft: 65,marginTop: 10,
-                display: "flex",justifyContent: "flex-start",
-                 width: 730, height: 180, borderRadius:"20px",
-                 backgroundColor: "#3C096C", boxShadow: "0px 0px 4px rgba(0, 0, 0, 0.25)"}} >
+            style={{
+                display: "flex",justifyContent: "flex-end",position: "absolute", right: "90px",
+                 width: 250, height: 250, borderRadius:"20px",
+                 backgroundColor: "#ff6d00", boxShadow: "0px 0px 4px rgba(0, 0, 0, 0.25)"}} >
         </div>
 
 

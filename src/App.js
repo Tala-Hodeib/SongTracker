@@ -20,7 +20,7 @@ function App() {
     <div className="App">
        <GlobalStyles
         styles={{
-          body: { boxSizing: "border-box", backgroundColor:"#240046"},
+          body: {boxSizing: "border-box", backgroundColor:"#240046"},
           "body *": { boxSizing: "border-box",}
         }}
       />
