@@ -14,17 +14,14 @@ const ResultCard = () => {
            
          <div 
             style={{
-              display: "flex",justifyContent: "flex-end",position: "absolute", left: "90px", top: "450px",width: 500, height: 100, borderRadius:"20px",
+              display: "flex",justifyContent: "flex-end",position: "absolute", left: "90px", top: 480,width: 500, height: 170, borderRadius: 10,
                  backgroundColor: "#3C096C", boxShadow: "0px 0px 4px rgba(0, 0, 0, 0.25)"}} >
         </div>
        
 
 
 
-            <div style={{marginLeft: 1080, marginTop: -10}}>
-            <FormControlLabel style={{color:"#FF6D00",fontWeight:"normal"}}
-              control={<Switch color="warning" />} label="Show Track" labelPlacement="start"/>
-            </div>
+           
         </div>
 
     );

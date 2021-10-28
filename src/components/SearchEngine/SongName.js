@@ -8,12 +8,10 @@ import { TextField } from '@mui/material';
  const SongName = () => {
 
   return (
-   <Box>
        <div>
-         <FormControl variant="outlined">
           <TextField
           variant="outlined"
-            style={{height: 55, width: 265, backgroundColor:"white", borderRadius: 30}}
+            style={{height: 55, width: 265, backgroundColor:"white", fontFamily:'Dosis'}}
             label="Song Name"
             InputProps={{
               endAdornment: (
@@ -23,10 +21,8 @@ import { TextField } from '@mui/material';
               ),
             }}
           />
-        </FormControl>
       </div>
-       
-      </Box>
-  );
+      
+      );
 }
 export default SongName;
