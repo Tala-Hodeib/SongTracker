@@ -3,6 +3,8 @@ import { Box, InputAdornment,FormControl } from "@material-ui/core";
 import {MusicNoteTwoTone} from "@material-ui/icons";
 import { alpha, styled } from '@mui/material/styles';
 import { TextField } from '@mui/material';
+import { inputLabelClasses } from "@mui/material/InputLabel";
+
 
 const RedditTextField = styled((props) => (
   <TextField InputProps={{ disableUnderline: true }} {...props} />
@@ -17,6 +19,7 @@ const RedditTextField = styled((props) => (
       'background-color',
       'box-shadow',
     ]),
+
     '&:hover': {
       backgroundColor: 'transparent',
     },
@@ -39,10 +42,17 @@ const RedditTextField = styled((props) => (
             
           /> */}
            <RedditTextField
+            InputLabelProps={{
+              sx: {
+                color: "orange",[`&.${inputLabelClasses.shrink}`]: {
+                  color: "#3C096C"
+                }}
+              }}
         label="Song lyrics"
+        style={{borderRadius: 4,}}
         id="reddit-input"
         variant="filled"
-        style={{ marginTop: 11 , backgroundColor:"white"}}
+        style={{ marginTop: 11 , backgroundColor:"white", borderRadius: 4}}
         InputProps={{
           endAdornment: (
             <InputAdornment >
