@@ -7,11 +7,10 @@ import { inputLabelClasses } from "@mui/material/InputLabel";
 
 
 const RedditTextField = styled((props) => (
-  <TextField InputProps={{ disableUnderline: true }} {...props} />
+  <TextField InputProps={{ disableUnderline: true }} {...props}/>
 ))(({ theme }) => ({
   '& .MuiFilledInput-root': {
-    border: '1px solid #e2e2e1',
-    overflow: 'hidden',
+    borderColor: '#9D4EDD',
     borderRadius: 4,
     backgroundColor: theme.palette.mode === 'light' ? '#fcfcfb' : '#2b2b2b',
     transition: theme.transitions.create([
@@ -28,6 +27,7 @@ const RedditTextField = styled((props) => (
       boxShadow: `${alpha(theme.palette.primary.main, 0.25)} 0 0 0 2px`,
       borderColor: '#9D4EDD',
     },
+  
   },
 }));
 
@@ -35,21 +35,13 @@ const RedditTextField = styled((props) => (
 
   return (
        <div>
-          {/* <TextField
-          variant="outlined"
-            style={{height: 55, width: 265, backgroundColor:"white", fontFamily:'Dosis'}}
-            label="Song lyrics"
-            
-          /> */}
            <RedditTextField
             InputLabelProps={{
               sx: {
-                color: "orange",[`&.${inputLabelClasses.shrink}`]: {
-                  color: "#3C096C"
-                }}
+                color: "grey", [`&.${inputLabelClasses.shrink}`]: { color:  "#240046"
+                }},
               }}
         label="Song lyrics"
-        style={{borderRadius: 4,}}
         id="reddit-input"
         variant="filled"
         style={{ marginTop: 11 , backgroundColor:"white", borderRadius: 4}}

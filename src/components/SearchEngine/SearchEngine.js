@@ -22,7 +22,7 @@ const SearchEngine = () => {
                         <SongCountry/>
                     </CardContent>
                         <div style={{width:"100%",display:"flex",justifyContent:"center"}}>
-                            <Button style={{height: 45, width: 265}} sx={{ '&:hover': {backgroundColor: "#9D4EDD",}, textTransform: "none",color: "white",backgroundColor:"#9D4EDD"}} startIcon={<SearchIcon sx={{color:"white"}}/>} variant="contained">Search</Button>
+                            <Button style={{height: 45, width: 550, borderRadius: 50}} sx={{ '&:hover': {backgroundColor: "#9D4EDD",}, textTransform: "none",color: "white",backgroundColor:"#9D4EDD"}} startIcon={<SearchIcon sx={{color:"white"}}/>} variant="contained">Search</Button>
                         </div>
                 </Card>
                 
