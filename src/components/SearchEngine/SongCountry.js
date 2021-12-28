@@ -32,8 +32,8 @@ const RedditTextField = styled((props) => (
 
   const countries = [
     {
-      value: 'USA',
-      label: 'USA',
+      value: 'BRAZIL',
+      label: 'BRAZIL',
     },
     {
       value: 'EUROPE',
