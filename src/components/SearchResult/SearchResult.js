@@ -3,7 +3,9 @@ import ResultCard from "./ResultCard";
 import TrackPlayer from "./TrackPlayer";
 
 
-const SearchResult = () => {
+const SearchResult = ({isVisible}) => {
+    console.log("search result isVisible", isVisible)
+    if (!isVisible) return null
     return ( 
 
         <div style={{display:"flex", flexDirection: "column"}}>

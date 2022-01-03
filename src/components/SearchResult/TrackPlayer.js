@@ -25,7 +25,7 @@ const TrackPlayer = () => {
          <div 
             style={{
                 display: "flex",justifyContent: "flex-end",position: "absolute", right: 190, top: 490,
-                 width: 420, height: 150, border:" 3px solid",borderColor:"#3C096C",
+                 width: 420, height: 150, border:" 3px solid",borderColor:"#9D4EDD",borderRadius: 10,
                  backgroundColor: "#ff6d00", boxShadow: "0px 0px 4px rgba(0, 0, 0, 0.25)"}} >
         <Card sx={{ backgroundColor: "#ff6d00", display: 'flex' }}>
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>

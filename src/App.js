@@ -4,6 +4,7 @@ import GlobalStyles from "@mui/material/GlobalStyles";
 import SearchResult from './components/SearchResult/SearchResult';
 import { ThemeProvider} from '@material-ui/core/styles';
 import { createTheme } from '@mui/material/styles';
+import { useState } from 'react';
 
 const theme = createTheme({
   typography: {
@@ -15,6 +16,13 @@ const theme = createTheme({
 
 
 function App() {
+
+  const [isVisible, setIsVisible] = useState(false)  
+  const showResults = () => setIsVisible(true)
+  
+// if we want a toggle button we can add "!isVisible" as param
+//   const showResults = () => setIsVisible(!isVisible)
+
   return (
     <ThemeProvider theme={theme}>
     <div className="App">
@@ -24,8 +32,8 @@ function App() {
           "body *": { boxSizing: "border-box",}
         }}
       />
-      <SearchEngine/>
-      <SearchResult/>
+      <SearchEngine handleClick={showResults}/>
+      <SearchResult isVisible={isVisible}/>
     </div>
     </ThemeProvider>
   );

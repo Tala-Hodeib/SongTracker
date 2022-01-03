@@ -8,8 +8,12 @@ import Logo from './background logo.png';
 import SongName from "./SongName";
 import SongCountry from "./SongCountry";
 import SongYear from "./SongYear";
+import SearchResult from "../SearchResult/SearchResult";
+import { useState } from "react";
 
-const SearchEngine = () => {
+const SearchEngine = ({handleClick}) => {
+
+  
     return (
         <div style={{display: "flex", flexWrap: "wrap"}}>
             <div>
@@ -22,8 +26,11 @@ const SearchEngine = () => {
                         <SongCountry/>
                     </CardContent>
                         <div style={{width:"100%",display:"flex",justifyContent:"center"}}>
-                            <Button style={{height: 45, width: 550, borderRadius: 50}} sx={{ '&:hover': {backgroundColor: "#9D4EDD",}, textTransform: "none",color: "white",backgroundColor:"#9D4EDD"}} startIcon={<SearchIcon sx={{color:"white"}}/>} variant="contained">Search</Button>
+                            <Button onClick={handleClick}
+                                style={{height: 45, width: 550, borderRadius: 50}} sx={{ '&:hover': {backgroundColor: "#9D4EDD",}, textTransform: "none",color: "white",backgroundColor:"#9D4EDD"}} startIcon={<SearchIcon sx={{color:"white"}}/>} variant="contained">Search</Button>
+                                
                         </div>
+
                 </Card>
                 
         </div>
