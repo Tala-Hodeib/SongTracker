@@ -9,7 +9,10 @@
 
 ## How does it look like?
 
-<video width="320" height="240" controls> <source src="screenrecording.mp4"> </video>
+<figure>
+<video width="320" height="240" controls> <source src="screenrecording.mp4"> 
+</video>
+</figure>
 
 <h3> How does it run? </h3>
  In the project directory, you can run:
