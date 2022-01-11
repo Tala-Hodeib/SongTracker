@@ -1,4 +1,4 @@
-<h1> <span style="color: #240046;"> Welcome to Song Tracker! </span> </h1>
+# Welcome to Song Tracker!
 
 ## Purpose of the project:
 
@@ -15,7 +15,7 @@ Basically, it is simply a search engine, designed to filter results through diff
 I aimed for a nice design, colorful, lively and for it to be user friendly
 
 
-<h3> How does it run? </h3>
+### How does it run? 
  In the project directory, you can run:
 
 ### `yarn start`
@@ -24,9 +24,8 @@ I aimed for a nice design, colorful, lively and for it to be user friendly
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.*
 
 ## How I felt finishing the project:
-<div>
-<img src="https://tenor.com/bbIxc.gif">
-</div>
+
+![insert tired gif](https://tenor.com/bbIxc.gif)
 
 
 
