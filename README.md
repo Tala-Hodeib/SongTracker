@@ -1,4 +1,4 @@
-<h1 style="color: #240046;"> Welcome to Song Tracker! </h1>
+<h1> <span style="color: #240046;"> Welcome to Song Tracker! </span> </h1>
 
 ## Purpose of the project:
 
@@ -7,11 +7,13 @@
 - Design and execute a clean and simple webpage
 - Use a library (Materail UI)
 
-## How does it look like?
+## Usage:
+Basically, it is simply a search engine, designed to filter results through different type of inputs and show results upon pressing **search**
+*Note: the data in the input and search result is static*
 
-<figure class="video_container">
-<iframe src="https://drive.google.com/file/d/1M0C2J_hp6rwZk1x7R9txgxBTKN0r46OR/view?usp=sharing" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+## Design:
+I aimed for a nice design, colorful, lively and for it to be user friendly
+
 
 <h3> How does it run? </h3>
  In the project directory, you can run:
@@ -20,6 +22,11 @@
 
 *Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.*
+
+## How I felt finishing the project:
+<div>
+<img src="https://tenor.com/bbIxc.gif">
+</div>
 
 
 
