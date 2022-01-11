@@ -9,7 +9,7 @@
 
 ## How does it look like?
 
-<figure>
+<figure class="video_container">
 <iframe src="https://drive.google.com/file/d/1M0C2J_hp6rwZk1x7R9txgxBTKN0r46OR/view?usp=sharing" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
