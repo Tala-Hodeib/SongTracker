@@ -10,7 +10,7 @@
 ## How does it look like?
 
 <figure>
-<video width="320" height="240" controls> <source src="screenrecording.mp4"> 
+<video width="320" height="240" controls> <source src="screenrecording.mp4"  type="video/mp4"> 
 </video>
 </figure>
 
